@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Local-NotoSansSC-Regular';
+  src: url('/font/NotoSansSC-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Local-SarasaMonoSC-Regular';
+  src: url('/font/SarasaMonoSC-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Local-NotoSansSC-Regular';
+}
+
+pre,
+code {
+  font-family: 'Local-SarasaMonoSC-Regular';
+}
