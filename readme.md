@@ -1,0 +1,1 @@
+It's a repo to store my notes written with Hugo and hugo-book.

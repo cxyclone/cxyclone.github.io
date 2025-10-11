@@ -1,0 +1,26 @@
+baseURL: https://cxyclone.github.io/
+languageCode: zh
+title: 笔记
+theme: hugo-book
+disablePathToLower: true
+hasCJKLanguage: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+  highlight:
+    style: base16-snazzy
+    lineNos: true
+
+params:
+  BookTheme: dark
+  BookSection: notes
+  BookDateFormat: "2002-01-02"
+  BookSearch: false
+
+caches:
+  images:
+    dir: :cacheDir/images
