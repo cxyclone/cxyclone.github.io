@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Noto Sans Mono CJK SC VF';
+    src: url('/fonts/NotoSansSC-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarasa Fixed SC Regular';
+    src: url('/fonts/SarasaFixedSC-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+html {
+    font-family: 'Noto Sans Mono CJK SC VF';
+    font-optical-sizing: auto;
+}
+
+code {
+    font-family: 'Sarasa Fixed SC Regular';
+}
