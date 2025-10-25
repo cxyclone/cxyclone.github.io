@@ -4,3 +4,13 @@ languageCode = 'zh'
 title = 'CXYCLONE的笔记'
 theme = 'hugo-book'
 caches.images.dir = ':cacheDir/images'
+copyright = '© 2025 [CXYCLONE](https://github.com/cxyclone)'
+disableKinds = ['taxonomy']
+disablePathToLower = true
+
+
+[params]
+  BookTheme = 'dark'
+  BookSection = '*'
+  BookSearch = false
+  BookComments = false
