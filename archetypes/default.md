@@ -1,5 +1,6 @@
 +++
-date = '{{ .Date }}'
-draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+bookFlatSection = true
+bookCollapseSection = true
+title = ""
+weight = 
 +++
