@@ -1,0 +1,6 @@
+baseURL = 'https://cxyclone.github.io/'
+defaultContentLanguage = 'zh'
+languageCode = 'zh'
+title = 'CXYCLONE的笔记'
+theme = 'hugo-book'
+caches.images.dir = ':cacheDir/images'
