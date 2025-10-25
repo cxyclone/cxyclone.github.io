@@ -1,0 +1,30 @@
+.book-code-copy-container {
+  position: relative;
+}
+
+.book-code-copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(40, 42, 54, 0.7);
+  color: #f8f8f2;
+  border: 1px solid #44475a;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  font-family: inherit;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+  z-index: 1;
+}
+
+.book-code-copy-container:hover .book-code-copy {
+  opacity: 1;
+}
+
+.book-code-copy.copied {
+  background: rgba(80, 250, 123, 0.2);
+  color: #50fa7b;
+  border-color: #50fa7b;
+}

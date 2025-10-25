@@ -34,3 +34,7 @@
   {{- end -}}
   {{- .Page.Store.Set "katex" true -}}
 {{- end -}}
+
+
+{{- $jsCodeCopy := resources.Get "code-copy.js" | js.Build (dict "targetPath" "js/code-copy.min.js") -}}
+<script src="{{ $jsCodeCopy.RelPermalink }}" defer></script>
